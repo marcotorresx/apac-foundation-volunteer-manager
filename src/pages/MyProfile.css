@@ -1,0 +1,53 @@
+.user_info_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.user_img {
+  width: 120px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 50%;
+  padding: 12px;
+  margin-top: 20px;
+}
+.user_info {
+  width: 70%;
+  margin-top: 20px;
+}
+.user_info_item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.user_info .left {
+  font-weight: 600;
+  color: var(--b12);
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.edit_link_container {
+  margin-top: 50px;
+  width: 68%;
+}
+.btn_edit_profile {
+  width: 100%;
+}
+/* EDIT PROFILE */
+.edit_profile_form {
+  margin-top: 20px;
+  width: 70%;
+}
+.edit_item {
+  padding: 5px 0px;
+}
+.edit_item .label {
+  width: 35%;
+  font-weight: 600;
+  color: var(--b12);
+  font-size: 15px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+}
+.edit_item .input {
+  margin-bottom: 12px;
+}

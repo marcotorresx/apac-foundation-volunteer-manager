@@ -1,0 +1,19 @@
+.graphs {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bar_graph {
+  width: 100%;
+}
+.pie_graph {
+  width: 55%;
+}
+.graph_selector {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}

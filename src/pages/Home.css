@@ -1,0 +1,139 @@
+/* HOME */
+.home {
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  display: grid;
+  grid-template-rows: 80px calc(100vh - 80px);
+  flex-direction: column;
+}
+.home_bottom {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+}
+.try {
+  width: 100%;
+  height: 100%;
+  background-color: khaki;
+}
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  min-height: 80px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2% 0 2%;
+}
+.navbar h1 {
+  color: var(--b12);
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navbar img {
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+  padding: 5px;
+  border-radius: 50%;
+  transition: 200ms all;
+}
+.navbar img:hover {
+  background-color: #e3f4ff;
+}
+/* SIDEBAR */
+.sidebar {
+  min-width: 200px;
+  max-height: calc(1000vh - 80px);
+  height: 100%;
+  display: grid;
+  grid-template-rows: 200px 1fr 60px;
+  flex-direction: column;
+  border-right: 1px solid rgb(226, 226, 226);
+  overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sb_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sb_top img {
+  width: 100px;
+  height: 100px;
+}
+.sb_middle {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  padding: 0px 15px;
+}
+.sb_navlink {
+  color: black;
+  text-decoration: none;
+}
+.sb_navlink.active .sb_item {
+  background-color: var(--b11);
+  color: white;
+}
+.sb_item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 7px;
+  padding: 3px 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 200ms all;
+}
+.sb_item:hover {
+  background-color: #c7ebff;
+}
+.sb_item p {
+  margin: 0;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.sb_bottom {
+  padding: 0px 15px;
+}
+.sb_bottom .sb_item:hover {
+  color: rgb(212, 0, 0);
+}
+/* HOME PAGES */
+.home_page {
+  width: 100%;
+  max-height: calc(100vh - 80px);
+  overflow-y: scroll;
+  padding: 35px 50px 70px 50px;
+}
+.home_page h1 {
+  font-size: 27px;
+  width: calc(100% + 10px);
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.home_page h2 {
+  font-size: 16px;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.hp_h1_secondary {
+  margin-top: 80px;
+}

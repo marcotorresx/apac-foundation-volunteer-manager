@@ -1,0 +1,83 @@
+/* FILTRO */
+.filtro {
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+.flitro_nivel {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+.filtro_campo {
+  margin: 0px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+.filtro_campo_nombre {
+  margin: 0px;
+  margin-bottom: 5px;
+  color: var(--b12);
+  font-weight: 500;
+}
+.filtro_input {
+  margin: 0px;
+}
+.filtro_boton {
+  width: 210px;
+  height: 43px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* TABLA */
+.tabla_usuarios {
+  margin-top: 50px;
+}
+.tabla_item {
+  display: flex;
+  font-size: 15px;
+  cursor: pointer;
+}
+.tabla_item:hover {
+  color: var(--b12);
+}
+.tabla_item.titulo {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--b12);
+}
+.tabla_item .texto {
+  padding: 0px 10px 0px 0px;
+  overflow: hidden;
+}
+.tabla_item .numero {
+  width: 30px;
+}
+.tabla_item .nombre {
+  width: calc(40% - 30px);
+}
+.tabla_item .correo {
+  width: 40%;
+}
+.tabla_item .tipo {
+  width: 20% - 30px;
+}
+.table_link {
+  text-decoration: none !important;
+}
+.lista_correos {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.lista_correos .card {
+  margin-top: 15px;
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+}
+.btn_crear_admin {
+  margin-left: 15px;
+}

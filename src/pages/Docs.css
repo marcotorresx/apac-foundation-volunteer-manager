@@ -1,0 +1,90 @@
+/* DOCS INICIALES */
+.lista_item {
+  display: flex;
+  align-items: center;
+}
+.lista_item p {
+  margin: 0;
+  flex-grow: 1;
+}
+.lista_item .fas {
+  color: var(--b12);
+  font-size: 19px;
+  margin: 7px 10px;
+  cursor: pointer;
+}
+/* MIS DOCS */
+.list_ul {
+  padding: 0;
+}
+.lista_item_my {
+  align-items: center !important;
+}
+.list_info {
+  margin: 7px 0px;
+  flex-grow: 1;
+}
+.list_actions {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.list_actions .file_input {
+  display: none;
+}
+.list_btn {
+  align-self: right;
+  background-color: var(--b11);
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 5px 21px 5px 25px;
+  font-size: 15px;
+}
+.list_btn:hover {
+  background-color: var(--b12);
+}
+.list_btn .fas {
+  margin-left: 10px;
+}
+.list_btn_contra {
+  background-color: white;
+  color: var(--b11);
+}
+.list_btn_contra:hover {
+  background-color: rgb(243, 243, 243);
+  color: var(--b11);
+}
+.doc_form {
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid var(--b13);
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.doc_page {
+  width: 100%;
+}
+.doc_page h1 {
+  font-size: 27px;
+  width: calc(100% + 10px);
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.doc_page h2 {
+  font-size: 16px;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.doc_title {
+  margin-top: 50px;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: var(--b12);
+}
